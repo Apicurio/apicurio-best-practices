@@ -3,7 +3,7 @@
 This projecti is the source used to publish https://www.apicur.io/apicurio-best-practices/.
 
 ## Contributing
-If you want to modify/fix an existing guide just open a pr against this repo. Heach pr is built and the preview site archive is attacched to the pr checks to be inspected if needed. When merged to the `main` branch [a github action](https://github.com/Apicurio/apicurio-best-practices/blob/main/.github/workflows/publish.yml) should take care to publish it to githug pages committing the processed asciidoc file to https://github.com/Apicurio/[`gh-pages` branch](apicurio-best-practices/tree/gh-pages).
+If you want to modify/fix an existing guide just open a pr against this repo. Heach pr is built and the preview site archive is attacched to the pr checks to be inspected if needed. When merged to the `main` branch [a github action](https://github.com/Apicurio/apicurio-best-practices/blob/main/.github/workflows/publish.yml) should take care to publish it to githug pages committing the processed asciidoc file to [`gh-pages` branch](https://github.com/Apicurio/apicurio-best-practices/tree/gh-pages).
 
 ### Building a local preview
 To build a local preview you need `asciidoc` installed. Then run:
